@@ -1,0 +1,144 @@
+
+.login-form {
+    background-color: #94d2bd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-form fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.login-form legend {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.login-form input[type="submit"] {
+    background-color: #0b6623;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #fca311;
+}
+
+.login-form p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-form a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: red; /* Set error message color to red */
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.registration-form {
+    background-color:  #94d2bd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.registration-form fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.registration-form legend {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="password"],
+.registration-form input[type="email"],
+.registration-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+/*.registration-form input[type="radio"] {
+    margin-right: 10px;
+}*/
+
+.registration-form input[type="submit"] {
+    background-color: #0b6623;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.registration-form input[type="submit"]:hover {
+    background-color: #fca311;
+}
+
+.registration-form p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.registration-form a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.registration-form a:hover {
+    text-decoration: underline;
+}
